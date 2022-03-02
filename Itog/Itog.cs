@@ -46,6 +46,8 @@ namespace Itog
             return Result.Succeeded;
         }
 
+
+
         public XYZ GetElementCenter(Element element)
         {
             BoundingBoxXYZ bounding = element.get_BoundingBox(null);
